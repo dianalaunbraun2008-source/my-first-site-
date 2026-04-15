@@ -1,0 +1,121 @@
+/* Основні налаштування*/
+body {
+	font-family: Arial, San-Serif;
+	font-size: 100%;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+}
+ul li {
+	list-style-type: none;
+}
+a {
+	text-decoration: none;
+}
+p {
+   font-style: 13px;
+   line-height: 1.3em;
+}
+.container {
+	margin: 0 auto;
+	width: 100%;
+} 
+
+/* Заголовок*/
+.header {
+	padding: 50px 0;
+	background-color: blue; 
+}
+.header h1,
+.header h2 {
+	color: yellow;
+	text-align: center;
+}
+/*Навигация*/
+.navi {
+	background-color: #222;
+	border-color: #101010; 
+	min-height: 64px;
+}
+.navi li {
+	float: left;
+	width: 100px;
+}
+.navi a {
+	display: block;
+	color: #FFF;
+	line-height: 4em;
+	font-weight: bold;
+	text-align: center;
+}
+.navi li a:hover {
+	color: yellowgreen;
+	background-color: black; 
+} 
+{
+	background-color: darkgrey;
+	color: white;
+}
+/*Коллекции*/
+.collection {
+	overflow: auto;
+}
+.collection-title {
+	padding-bottom: 5px;
+	border-bottom: 1px solid #777;
+	font-size: 36px; 
+}
+.collection-title small {
+	color: #777;
+	font-size: 70%;
+}
+.collection-item-outer {
+	display: inline-block;
+	float: left;
+	padding-left: 5px;
+	padding-right: 5px;
+	width: 33.3%;
+	box-sizing: border-box;  
+}
+.collection > div:first-child {
+	padding-left: 0;
+	padding-right: 5px; 
+}
+.collection > div:last-child {
+	padding-right: 0;
+	padding-left: 5px;
+}
+.collection-item {
+	border: 3px solid #959595;
+}
+.collection-item img {
+	width: 100%;
+}
+.collection-text {
+	padding: 0 20px 20px 20px;
+}
+.collection-text h3 {
+	color: yellowgreen;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis; 
+}
+.collection-text p {
+max-height: 80px;
+overflow: hidden;
+}
+.collection-text button {
+	padding: 10px;
+	border: 1px solid transparent;
+	border-radius: 5px;
+	outline: none;
+}
+/*FOOTER*/
+.footer {
+	background-color: blue;
+	color: yellow;
+	padding: 20px 0;
+	margin-top: 30px;  
+}
